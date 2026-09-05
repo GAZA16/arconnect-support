@@ -40,6 +40,25 @@ var WA_VISIBLE = "+503 7805-1905";
   var yr = document.getElementById("yr");
   if (yr) yr.textContent = String(new Date().getFullYear());
 
+  /* ---------- Boton de WhatsApp en cada servicio y licencia ---------- */
+  function money0(n) {
+    return "$" + n.toFixed(2);
+  }
+
+  var pedidos = document.querySelectorAll("[data-wa-service]");
+  Array.prototype.forEach.call(pedidos, function (el) {
+    var servicio = el.getAttribute("data-wa-service") || "Servicio";
+    var precio = parseFloat(el.getAttribute("data-wa-price")) || 0;
+    var texto =
+      "Hola AR Connect Support El Salvador, vi su pagina web y quiero solicitar:\n\n" +
+      "- " + servicio +
+      (precio > 0 ? " (" + money0(precio) + ")" : "") +
+      "\n\nMi equipo es: \nMi problema es: ";
+    el.href = waLink(texto);
+    el.target = "_blank";
+    el.rel = "noopener noreferrer";
+  });
+
   /* ---------- Cotizador ---------- */
   var form = document.getElementById("quoteForm");
   var list = document.getElementById("sumList");
