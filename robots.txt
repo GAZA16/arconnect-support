@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://arconnectsupport.com/sitemap.xml
+Sitemap: https://gaza16.github.io/arconnect-support/sitemap.xml

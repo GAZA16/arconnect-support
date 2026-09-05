@@ -13,6 +13,10 @@ a{color:inherit}
 .nav{position:sticky;top:0;z-index:50;backdrop-filter:blur(14px);background:rgba(5,11,31,.82);border-bottom:1px solid var(--line)}
 .nav-in{display:flex;align-items:center;gap:18px;padding:12px 0}
 .brand{display:flex;align-items:center;gap:10px;text-decoration:none;font-weight:800}
+.brand-logo{height:46px;width:auto;background:#fff;padding:7px 12px;border-radius:12px;box-shadow:0 6px 18px rgba(0,0,0,.28);display:block}
+@media(hover:hover){.brand-logo{transition:transform .2s}.brand:hover .brand-logo{transform:translateY(-1px) scale(1.02)}}
+.brand-foot .brand-logo{height:58px}
+@media(max-width:640px){.brand-logo{height:38px;padding:6px 9px}}
 .brand-mark{display:grid;place-items:center;width:42px;height:42px;border-radius:12px;background:linear-gradient(135deg,var(--cy),var(--vi));color:#04102a;font-weight:900;letter-spacing:.5px}
 .brand-txt{display:flex;flex-direction:column;line-height:1.1;font-size:1.02rem}
 .brand-txt small{font-weight:600;color:var(--cy);font-size:.7rem;letter-spacing:2px;text-transform:uppercase}
