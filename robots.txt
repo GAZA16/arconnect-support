@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://arconnectsupport.com/sitemap.xml
