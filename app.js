@@ -19,7 +19,7 @@ var WA_VISIBLE = "+503 7805-1905";
   var saludo =
     "Hola AR Connect Support El Salvador, vi su pagina web y necesito ayuda con mi computadora.";
 
-  ["navWa", "heroWa", "ctaWa", "floatWa"].forEach(function (id) {
+  ["navWa", "heroWa", "ctaWa", "floatWa", "footWa"].forEach(function (id) {
     var el = document.getElementById(id);
     if (el) {
       el.href = waLink(saludo);

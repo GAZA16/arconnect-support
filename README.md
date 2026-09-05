@@ -3,7 +3,7 @@
 Sitio web oficial de **AR Connect Support El Salvador** — soporte técnico remoto para computadoras, mantenimiento, instalación de programas y licencias de Windows y Microsoft Office.
 
 - WhatsApp: +503 7805-1905
-- Correo: ventasar@arconnectsupport.com
+- Correo: zepedageovanyalexander@gmail.com
 - Cobertura: todo El Salvador, 100% remoto
 
 ## Archivos
